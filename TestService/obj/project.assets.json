@@ -183,11 +183,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/matthewrizzini/Desktop/Visual Studio Projects/TDDPractice4/TDD_StringCalculator/TestService/TestService.csproj",
+      "projectUniqueName": "/Users/matthewrizzini/Desktop/Visual Studio Projects/TDDPractice5/TDD_Fibonacci/TestService/TestService.csproj",
       "projectName": "TestService",
-      "projectPath": "/Users/matthewrizzini/Desktop/Visual Studio Projects/TDDPractice4/TDD_StringCalculator/TestService/TestService.csproj",
+      "projectPath": "/Users/matthewrizzini/Desktop/Visual Studio Projects/TDDPractice5/TDD_Fibonacci/TestService/TestService.csproj",
       "packagesPath": "/Users/matthewrizzini/.nuget/packages/",
-      "outputPath": "/Users/matthewrizzini/Desktop/Visual Studio Projects/TDDPractice4/TDD_StringCalculator/TestService/obj/",
+      "outputPath": "/Users/matthewrizzini/Desktop/Visual Studio Projects/TDDPractice5/TDD_Fibonacci/TestService/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

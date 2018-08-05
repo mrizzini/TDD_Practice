@@ -5661,11 +5661,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/matthewrizzini/Desktop/Visual Studio Projects/TDDPractice4/TDD_StringCalculator/TestService.Tests/TestService.Tests.csproj",
+      "projectUniqueName": "/Users/matthewrizzini/Desktop/Visual Studio Projects/TDDPractice5/TDD_Fibonacci/TestService.Tests/TestService.Tests.csproj",
       "projectName": "TestService.Tests",
-      "projectPath": "/Users/matthewrizzini/Desktop/Visual Studio Projects/TDDPractice4/TDD_StringCalculator/TestService.Tests/TestService.Tests.csproj",
+      "projectPath": "/Users/matthewrizzini/Desktop/Visual Studio Projects/TDDPractice5/TDD_Fibonacci/TestService.Tests/TestService.Tests.csproj",
       "packagesPath": "/Users/matthewrizzini/.nuget/packages/",
-      "outputPath": "/Users/matthewrizzini/Desktop/Visual Studio Projects/TDDPractice4/TDD_StringCalculator/TestService.Tests/obj/",
+      "outputPath": "/Users/matthewrizzini/Desktop/Visual Studio Projects/TDDPractice5/TDD_Fibonacci/TestService.Tests/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -5682,8 +5682,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "/Users/matthewrizzini/Desktop/Visual Studio Projects/TDDPractice4/TDD_StringCalculator/TestService/TestService.csproj": {
-              "projectPath": "/Users/matthewrizzini/Desktop/Visual Studio Projects/TDDPractice4/TDD_StringCalculator/TestService/TestService.csproj"
+            "/Users/matthewrizzini/Desktop/Visual Studio Projects/TDDPractice5/TDD_Fibonacci/TestService/TestService.csproj": {
+              "projectPath": "/Users/matthewrizzini/Desktop/Visual Studio Projects/TDDPractice5/TDD_Fibonacci/TestService/TestService.csproj"
             }
           }
         }
