@@ -117,6 +117,32 @@ namespace Test.Services
             Assert.AreEqual(1006, result); 
         }
 
+        [Test]
+        public void RomanNumberalConverter()
+        {
+            TestService _testService = new TestService();
+            var result1 = _testService.RomanNumeral("I");
+            Assert.AreEqual(1, result1);
+
+            var result2 = _testService.RomanNumeral("V");
+            Assert.AreEqual(5, result2);
+
+            var result3 = _testService.RomanNumeral("X");
+            Assert.AreEqual(10, result3);
+
+            var result4 = _testService.RomanNumeral("II");
+            Assert.AreEqual(2, result4);
+
+            var result5 = _testService.RomanNumeral("IV");
+            Assert.AreEqual(4, result5);
+
+            var result6 = _testService.RomanNumeral("XIV");
+            Assert.AreEqual(14, result6);
+
+            var result7 = _testService.RomanNumeral("IX");
+            Assert.AreEqual(9, result7);
+        }
+
 
     }
 }

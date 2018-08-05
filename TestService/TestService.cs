@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Test.Services
 {
@@ -63,9 +64,56 @@ namespace Test.Services
             // }
 
             return Int32.Parse(str);
-
         }
 
+        public int RomanNumeral(string roman)
+        {
+            // var numbers = new List<int>{ 1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1 };
+            // var romanNumeral = new List<string>{ "M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I" };
+            // var final = "";
 
+            // for (var i = 0; i < numbers.Count; i++)
+            // {
+            //     while 
+            // }
+            Dictionary<char, int> map = new Dictionary<char, int>()
+            {
+                {'I', 1 },
+                {'V', 5 },
+                {'X', 10 },
+                {'L', 50 },
+                {'C', 100 },
+                {'D', 500 },
+                {',', 1000 }
+            };
+
+            int result = 0;
+
+            for (var i = 0; i < roman.Length; i++)
+            {
+                if (i + 1 < roman.Length && map[roman[i]] < map[roman[i + 1]])
+                {
+                    result -= map[roman[i]];
+                }
+                else
+                {
+                    result += map[roman[i]];
+                }
+            }
+
+
+            return result;
+        }
     }
 }
+
+
+  
+//   for (var i = 0; i < numbers.length; i++) {
+//     while (numbers[i] <= num) {
+//       final += romanNumeral[i];
+//       num = num - numbers[i];
+//     }
+//   }
+  
+//  return final;
